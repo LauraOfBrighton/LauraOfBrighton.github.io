@@ -1,0 +1,214 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  line-height: 23px;
+}
+header {
+  background-color: #fdfdfc;
+  text-align: center;
+  border-bottom: 1px solid #e7e6e6;
+  border-top: 10px solid #FF1A1A;
+  padding-top: 1px; 
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  font-family: impact;
+  
+}
+.title h1 {
+  font-size: 40px;
+  color: #000000;
+  vertical-align: top;  
+  margin: 20px 20px 0;
+  font-family: impact;
+}
+#toolbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#toolbar li {
+  display: inline-block;
+  padding: 10px;
+}
+#toolbar {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom: 1px solid #FF1A1A;
+  border-top: 1px solid #FF1A1A;
+}
+#toolbar li a {
+  text-decoration: none;
+  color: #000000;
+}
+#toolbar li a:hover {
+  border-bottom: 1px solid;
+}
+.my-picture, .main {
+  display: inline-block;
+  }
+.my-picture {
+  vertical-align: top;
+  margin: 20px;
+  padding-top: 140px;
+}
+.my-picture img {
+  height: 250px;
+  border: 3px solid #6E4E4E;
+  border-radius: 6px;
+}
+.main {
+  margin-right: 20px;
+  margin-left: 50px;
+  padding-top: 150px;
+  vertical-align: top;
+}
+.pagecontent {
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-top: 150px;
+  vertical-align: top;
+}
+.casestudy {
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-top: 20px;
+  vertical-align: top;
+}
+.highlight {
+  color: #FF1A1A; 
+}
+.social-media {
+  display: inline-block;
+  margin-left: 0px;
+  padding-top: 30px;
+  vertical-align: top;
+}
+.social-media2 {
+  display: inline-block;
+  margin-left: 0px;
+  padding-top: 30px;
+  vertical-align: top;
+}
+#youtube {
+  display: inline-block;
+  margin-top: 2px;
+  padding-top: 30px;
+  vertical-align: top;
+}
+#g-ytsubscribe{
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 30px;
+  vertical-align: top; 
+}
+.videos {
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+}
+ul.pictures {
+  list-style: none; 
+  text-align: center;
+}
+.pictures li {
+   display: inline;
+   margin: 10px;
+}
+.pictures li img {
+  border: 3px solid #6E4E4E;
+  border-radius: 6px;
+}
+ul.logos {
+  list-style: none; 
+  text-align: center;
+}
+.logos li {
+   display: inline;
+   margin: 10px;
+}
+.logos li img {
+  border-radius: 6px;
+}
+a {
+  color: #6E4E4E;
+}
+
+a:hover {
+  color: #FF1A1A;
+}
+h2 {
+  font-size: 28px;
+  margin: 15px;
+  color: #FF1A1A;
+  padding: 50px 10px 30px 10px;
+  font-weight: 400;
+  text-align: center;
+  font-family: impact;
+}
+h3 {
+  font-size: 20px;
+  margin: 15px;
+  color: #FF1A1A;
+  padding-top: 50px;
+  font-weight: 400;
+  text-align: center;
+  font-family: impact;
+}
+h4 {
+  color: #6E4E4E;
+  font-size: 15px;
+  padding: 15px 25px 15px;
+}
+
+small {
+  color: #6D6A6A;
+  font-size: 15px;
+  margin: 0 30px 10px;
+  text-align: right;
+}
+.testimonial {
+  border-bottom: 1px solid #f6f4f8;
+  border-top: 1px solid #f6f4f8;
+  margin: 40px auto;
+  width: 90%;
+}
+footer {
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 30px;
+  background-color: #FF1A1A;
+  border-top: 1px solid #eeeeee;
+  margin-top: 20px;
+  width: 100%;
+}
+
+footer p {
+  color: #000000;
+  font-size: 14px;
+}
+
+footer a {
+  color: #000000;
+}
+
+footer a:hover {
+  color: #000000;
+}
+
+@media screen and (max-width: 862px) { 
+ .my-picture {
+  display: none;
+ }
+
+  .main {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 432px) { 
+  #youtube {
+    margin-top: 2px;
+    padding-top: 0px;
+  }
+}
