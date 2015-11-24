@@ -59,6 +59,10 @@ header {
   border: 3px solid #6E4E4E;
   border-radius: 6px;
 }
+.center-image img {
+  border: 3px solid #6E4E4E;
+  border-radius: 6px;
+}
 .main {
   margin-right: 20px;
   margin-left: 50px;
