@@ -35,6 +35,7 @@ header {
 #toolbar {
   background-color: #FFFFFF;
   text-align: center;
+  font-family: impact;
   border-bottom: 1px solid #FF1A1A;
   border-top: 1px solid #FF1A1A;
 }
