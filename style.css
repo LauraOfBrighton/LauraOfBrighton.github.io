@@ -11,9 +11,9 @@ header {
   padding-top: 1px; 
   height: 150px;
   position: fixed;
-  width: 100%;
   font-family: 'Anton', sans-serif;
   font-size: 36px;
+  width: 100%;
 
   
 }
@@ -22,6 +22,7 @@ header {
   color: #000000;
   vertical-align: top;  
   margin: 20px 20px 0;
+  width: 90%;
   font-family: 'Anton', sans-serif;
 }
 #toolbar ul {
@@ -181,6 +182,13 @@ small {
   border-top: 1px solid #f6f4f8;
   margin: 40px auto;
   width: 90%;
+}
+.newsletter {
+  border-bottom: 1px solid #f6f4f8;
+  border-top: 1px solid #f6f4f8;
+  margin: 40px auto;
+  width: 90%;
+  font-family: Helvetica, Arial, sans-serif;
 }
 footer {
   height: 60px;
