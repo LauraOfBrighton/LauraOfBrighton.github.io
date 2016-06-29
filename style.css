@@ -116,6 +116,7 @@ header {
     vertical-align: top;
     padding: 20px;
     text-align: center;
+    width: 90%;
 }
 ul.pictures {
   list-style: none; 
@@ -183,6 +184,10 @@ small {
   margin: 40px auto;
   width: 90%;
 }
+#mc_embed_signup {
+  padding-top: 30px;
+}
+
 .newsletter {
   width: 90%;
   font-family: Helvetica, Arial, sans-serif;
