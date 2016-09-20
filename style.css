@@ -12,7 +12,7 @@ header {
   height: 150px;
   position: fixed;
   font-family: 'Anton', sans-serif;
-  font-size: 36px;
+  font-size: 5vw;
   width: 100%;
 
   
@@ -25,14 +25,25 @@ header {
   width: 90%;
   font-family: 'Anton', sans-serif;
 }
+
+.nowrap {
+  white-space: nowrap ;
+}
+
+
 #toolbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
+
 }
 #toolbar li {
   display: inline-block;
   padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+
+  
 }
 #toolbar {
   background-color: #FFFFFF;
@@ -184,9 +195,6 @@ small {
   margin: 40px auto;
   width: 90%;
 }
-#mc_embed_signup {
-  padding-top: 30px;
-}
 
 .newsletter {
   width: 90%;
@@ -226,11 +234,22 @@ footer a:hover {
     width: 85%;
   }
 }
-@media screen and (max-width: 432px) { 
-  #videos {
-    max-width: 100%;
-    height: auto;
-    margin-top: 2px;
-    padding-top: 0px;
+.videos {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+  
+          }
+.videos iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
-}
+
