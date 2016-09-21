@@ -10,6 +10,7 @@ header {
   border-top: 10px solid #FF1A1A;
   padding-top: 1px; 
   height: 200px;
+  max-height: 200px; 
   position: fixed;
   font-family: 'Anton', sans-serif;
   font-size: 5vw;
@@ -72,13 +73,13 @@ header {
 .main {
   margin-right: 20px;
   margin-left: 50px;
-  padding-top: 200px;
+  padding-top: 250px;
   vertical-align: top;
 }
 .pagecontent {
   margin-left: 50px;
   margin-right: 20px;
-  padding-top: 200px;
+  padding-top: 250px;
   vertical-align: top;
 }
 .casestudy {
